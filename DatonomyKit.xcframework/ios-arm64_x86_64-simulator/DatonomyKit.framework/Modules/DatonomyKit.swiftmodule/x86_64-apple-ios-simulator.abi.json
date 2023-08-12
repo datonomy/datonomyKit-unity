@@ -1,0 +1,3498 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SdkState",
+        "printedName": "SdkState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "initialized",
+            "printedName": "initialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.SdkState.Type) -> DatonomyKit.SdkState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkState",
+                    "printedName": "DatonomyKit.SdkState",
+                    "usr": "s:11DatonomyKit8SdkStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.SdkState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkState",
+                        "printedName": "DatonomyKit.SdkState",
+                        "usr": "s:11DatonomyKit8SdkStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8SdkStateO11initializedyA2CmF",
+            "mangledName": "$s11DatonomyKit8SdkStateO11initializedyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.SdkState.Type) -> DatonomyKit.SdkState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkState",
+                    "printedName": "DatonomyKit.SdkState",
+                    "usr": "s:11DatonomyKit8SdkStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.SdkState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SdkState",
+                        "printedName": "DatonomyKit.SdkState",
+                        "usr": "s:11DatonomyKit8SdkStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8SdkStateO7unknownyA2CmF",
+            "mangledName": "$s11DatonomyKit8SdkStateO7unknownyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.SdkState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SdkState",
+                    "printedName": "DatonomyKit.SdkState",
+                    "usr": "s:11DatonomyKit8SdkStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit8SdkStateO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11DatonomyKit8SdkStateO8rawValueACSgSS_tcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit8SdkStateO8rawValueSSvp",
+            "mangledName": "$s11DatonomyKit8SdkStateO8rawValueSSvp",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit8SdkStateO8rawValueSSvg",
+                "mangledName": "$s11DatonomyKit8SdkStateO8rawValueSSvg",
+                "moduleName": "DatonomyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11DatonomyKit8SdkStateO",
+        "mangledName": "$s11DatonomyKit8SdkStateO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdImpression",
+        "printedName": "AdImpression",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(revenue:networkName:typeAds:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdImpression",
+                "printedName": "DatonomyKit.AdImpression",
+                "usr": "s:11DatonomyKit12AdImpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdsType",
+                "printedName": "DatonomyKit.AdsType",
+                "usr": "s:11DatonomyKit7AdsTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "DatonomyKit.Currency",
+                "usr": "s:11DatonomyKit8CurrencyO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit12AdImpressionC7revenue11networkName7typeAds8currencyACSd_SSAA0I4TypeOAA8CurrencyOtcfc",
+            "mangledName": "$s11DatonomyKit12AdImpressionC7revenue11networkName7typeAds8currencyACSd_SSAA0I4TypeOAA8CurrencyOtcfc",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatonomyKit12AdImpressionC",
+        "mangledName": "$s11DatonomyKit12AdImpressionC",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TransactionIAP",
+        "printedName": "TransactionIAP",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(originalID:amount:currency:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionIAP",
+                "printedName": "DatonomyKit.TransactionIAP",
+                "usr": "s:11DatonomyKit14TransactionIAPC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Currency",
+                "printedName": "DatonomyKit.Currency",
+                "usr": "s:11DatonomyKit8CurrencyO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit14TransactionIAPC10originalID6amount8currencyACSS_SdAA8CurrencyOtcfc",
+            "mangledName": "$s11DatonomyKit14TransactionIAPC10originalID6amount8currencyACSS_SdAA8CurrencyOtcfc",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatonomyKit14TransactionIAPC",
+        "mangledName": "$s11DatonomyKit14TransactionIAPC",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatonomySDKError",
+        "printedName": "DatonomySDKError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidApiKey",
+            "printedName": "invalidApiKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKError.Type) -> (Swift.String) -> DatonomyKit.DatonomySDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DatonomyKit.DatonomySDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit0A8SDKErrorO13invalidApiKeyyACSS_tcACmF",
+            "mangledName": "$s11DatonomyKit0A8SDKErrorO13invalidApiKeyyACSS_tcACmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "sdkNotInitialized",
+            "printedName": "sdkNotInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKError.Type) -> (Swift.String) -> DatonomyKit.DatonomySDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DatonomyKit.DatonomySDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit0A8SDKErrorO17sdkNotInitializedyACSS_tcACmF",
+            "mangledName": "$s11DatonomyKit0A8SDKErrorO17sdkNotInitializedyACSS_tcACmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidEvent",
+            "printedName": "invalidEvent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKError.Type) -> (Swift.String) -> DatonomyKit.DatonomySDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DatonomyKit.DatonomySDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit0A8SDKErrorO12invalidEventyACSS_tcACmF",
+            "mangledName": "$s11DatonomyKit0A8SDKErrorO12invalidEventyACSS_tcACmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "processingError",
+            "printedName": "processingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKError.Type) -> (Swift.String) -> DatonomyKit.DatonomySDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> DatonomyKit.DatonomySDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit0A8SDKErrorO15processingErroryACSS_tcACmF",
+            "mangledName": "$s11DatonomyKit0A8SDKErrorO15processingErroryACSS_tcACmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "notAuthorized",
+            "printedName": "notAuthorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKError.Type) -> DatonomyKit.DatonomySDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKError",
+                    "printedName": "DatonomyKit.DatonomySDKError",
+                    "usr": "s:11DatonomyKit0A8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKError",
+                        "printedName": "DatonomyKit.DatonomySDKError",
+                        "usr": "s:11DatonomyKit0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit0A8SDKErrorO13notAuthorizedyA2CmF",
+            "mangledName": "$s11DatonomyKit0A8SDKErrorO13notAuthorizedyA2CmF",
+            "moduleName": "DatonomyKit"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11DatonomyKit0A8SDKErrorO",
+        "mangledName": "$s11DatonomyKit0A8SDKErrorO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Currency",
+        "printedName": "Currency",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "EUR",
+            "printedName": "EUR",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.Currency.Type) -> DatonomyKit.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "DatonomyKit.Currency",
+                    "usr": "s:11DatonomyKit8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "DatonomyKit.Currency",
+                        "usr": "s:11DatonomyKit8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8CurrencyO3EURyA2CmF",
+            "mangledName": "$s11DatonomyKit8CurrencyO3EURyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "USD",
+            "printedName": "USD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.Currency.Type) -> DatonomyKit.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "DatonomyKit.Currency",
+                    "usr": "s:11DatonomyKit8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "DatonomyKit.Currency",
+                        "usr": "s:11DatonomyKit8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8CurrencyO3USDyA2CmF",
+            "mangledName": "$s11DatonomyKit8CurrencyO3USDyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "BRL",
+            "printedName": "BRL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.Currency.Type) -> DatonomyKit.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "DatonomyKit.Currency",
+                    "usr": "s:11DatonomyKit8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "DatonomyKit.Currency",
+                        "usr": "s:11DatonomyKit8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8CurrencyO3BRLyA2CmF",
+            "mangledName": "$s11DatonomyKit8CurrencyO3BRLyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "GBP",
+            "printedName": "GBP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.Currency.Type) -> DatonomyKit.Currency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "DatonomyKit.Currency",
+                    "usr": "s:11DatonomyKit8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.Currency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Currency",
+                        "printedName": "DatonomyKit.Currency",
+                        "usr": "s:11DatonomyKit8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit8CurrencyO3GBPyA2CmF",
+            "mangledName": "$s11DatonomyKit8CurrencyO3GBPyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.Currency?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Currency",
+                    "printedName": "DatonomyKit.Currency",
+                    "usr": "s:11DatonomyKit8CurrencyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit8CurrencyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11DatonomyKit8CurrencyO8rawValueACSgSS_tcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit8CurrencyO8rawValueSSvp",
+            "mangledName": "$s11DatonomyKit8CurrencyO8rawValueSSvp",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit8CurrencyO8rawValueSSvg",
+                "mangledName": "$s11DatonomyKit8CurrencyO8rawValueSSvg",
+                "moduleName": "DatonomyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11DatonomyKit8CurrencyO",
+        "mangledName": "$s11DatonomyKit8CurrencyO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "initializeSDKUnity",
+        "printedName": "initializeSDKUnity(apiKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)initializeSDKUnityWithApiKey:",
+        "mangledName": "$s11DatonomyKit18initializeSDKUnity6apiKeyySS_tF",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "sendEventSDKUnity",
+        "printedName": "sendEventSDKUnity(apiKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)sendEventSDKUnityWithApiKey:",
+        "mangledName": "$s11DatonomyKit17sendEventSDKUnity6apiKeyySS_tF",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "getLTVscoreSDKUnity",
+        "printedName": "getLTVscoreSDKUnity(apiKey:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "c:(cm)getLTVscoreSDKUnityWithApiKey:",
+        "mangledName": "$s11DatonomyKit19getLTVscoreSDKUnity6apiKeyySS_tF",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "CDecl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatonomySDKLogLevel",
+        "printedName": "DatonomySDKLogLevel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "off",
+            "printedName": "off",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelOff",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO3offyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelError",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO5erroryA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "warning",
+            "printedName": "warning",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelWarning",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO7warningyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelInfo",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO4infoyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "debug",
+            "printedName": "debug",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelDebug",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO5debugyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "verbose",
+            "printedName": "verbose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.DatonomySDKLogLevel.Type) -> DatonomyKit.DatonomySDKLogLevel",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DatonomySDKLogLevel",
+                        "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel@DatonomySDKLogLevelVerbose",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO7verboseyA2CmF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit0A11SDKLogLevelO4nameSSvp",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO4nameSSvp",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit0A11SDKLogLevelO4nameSSvg",
+                "mangledName": "$s11DatonomyKit0A11SDKLogLevelO4nameSSvg",
+                "moduleName": "DatonomyKit",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.DatonomySDKLogLevel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatonomySDKLogLevel",
+                    "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                    "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit0A11SDKLogLevelO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO8rawValueACSgSi_tcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit0A11SDKLogLevelO8rawValueSivp",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO8rawValueSivp",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit0A11SDKLogLevelO8rawValueSivg",
+                "mangledName": "$s11DatonomyKit0A11SDKLogLevelO8rawValueSivg",
+                "moduleName": "DatonomyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "<",
+            "printedName": "<(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatonomySDKLogLevel",
+                "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DatonomySDKLogLevel",
+                "printedName": "DatonomyKit.DatonomySDKLogLevel",
+                "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0A11SDKLogLevelO1loiySbAC_ACtFZ",
+            "mangledName": "$s11DatonomyKit0A11SDKLogLevelO1loiySbAC_ACtFZ",
+            "moduleName": "DatonomyKit",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DatonomyKit@E@DatonomySDKLogLevel",
+        "mangledName": "$s11DatonomyKit0A11SDKLogLevelO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsType",
+        "printedName": "AdsType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "banner",
+            "printedName": "banner",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdsType.Type) -> DatonomyKit.AdsType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdsType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsType",
+                        "printedName": "DatonomyKit.AdsType",
+                        "usr": "s:11DatonomyKit7AdsTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit7AdsTypeO6banneryA2CmF",
+            "mangledName": "$s11DatonomyKit7AdsTypeO6banneryA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "video",
+            "printedName": "video",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdsType.Type) -> DatonomyKit.AdsType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdsType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsType",
+                        "printedName": "DatonomyKit.AdsType",
+                        "usr": "s:11DatonomyKit7AdsTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit7AdsTypeO5videoyA2CmF",
+            "mangledName": "$s11DatonomyKit7AdsTypeO5videoyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "interstitial",
+            "printedName": "interstitial",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdsType.Type) -> DatonomyKit.AdsType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdsType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsType",
+                        "printedName": "DatonomyKit.AdsType",
+                        "usr": "s:11DatonomyKit7AdsTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit7AdsTypeO12interstitialyA2CmF",
+            "mangledName": "$s11DatonomyKit7AdsTypeO12interstitialyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "rewarded",
+            "printedName": "rewarded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdsType.Type) -> DatonomyKit.AdsType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdsType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsType",
+                        "printedName": "DatonomyKit.AdsType",
+                        "usr": "s:11DatonomyKit7AdsTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit7AdsTypeO8rewardedyA2CmF",
+            "mangledName": "$s11DatonomyKit7AdsTypeO8rewardedyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "mrec",
+            "printedName": "mrec",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdsType.Type) -> DatonomyKit.AdsType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdsType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdsType",
+                        "printedName": "DatonomyKit.AdsType",
+                        "usr": "s:11DatonomyKit7AdsTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit7AdsTypeO4mrecyA2CmF",
+            "mangledName": "$s11DatonomyKit7AdsTypeO4mrecyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.AdsType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdsType",
+                    "printedName": "DatonomyKit.AdsType",
+                    "usr": "s:11DatonomyKit7AdsTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit7AdsTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s11DatonomyKit7AdsTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit7AdsTypeO8rawValueSSvp",
+            "mangledName": "$s11DatonomyKit7AdsTypeO8rawValueSSvp",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit7AdsTypeO8rawValueSSvg",
+                "mangledName": "$s11DatonomyKit7AdsTypeO8rawValueSSvg",
+                "moduleName": "DatonomyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11DatonomyKit7AdsTypeO",
+        "mangledName": "$s11DatonomyKit7AdsTypeO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdsRevenuePaid",
+        "printedName": "AdsRevenuePaid",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:revenue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdsRevenuePaid",
+                "printedName": "DatonomyKit.AdsRevenuePaid",
+                "usr": "s:11DatonomyKit14AdsRevenuePaidC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdsType",
+                "printedName": "DatonomyKit.AdsType",
+                "usr": "s:11DatonomyKit7AdsTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit14AdsRevenuePaidC4type7revenueAcA0C4TypeO_Sdtcfc",
+            "mangledName": "$s11DatonomyKit14AdsRevenuePaidC4type7revenueAcA0C4TypeO_Sdtcfc",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatonomyKit14AdsRevenuePaidC",
+        "mangledName": "$s11DatonomyKit14AdsRevenuePaidC",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatonomySdk",
+        "printedName": "DatonomySdk",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatonomySdk",
+                "printedName": "DatonomyKit.DatonomySdk",
+                "usr": "s:11DatonomyKit0A3SdkC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit0A3SdkCACycfc",
+            "mangledName": "$s11DatonomyKit0A3SdkCACycfc",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.SdkState?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DatonomyKit.SdkState?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.SdkState?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SdkState",
+                            "printedName": "DatonomyKit.SdkState",
+                            "usr": "s:11DatonomyKit8SdkStateO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0A3SdkC10initialize6apiKey_ySS_yAA0C5StateOSg_AA0A8SDKErrorOSgtctF",
+            "mangledName": "$s11DatonomyKit0A3SdkC10initialize6apiKey_ySS_yAA0C5StateOSg_AA0A8SDKErrorOSgtctF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLTVScore",
+            "printedName": "getLTVScore(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0A3SdkC11getLTVScoreyyySdSg_AA0A8SDKErrorOSgtcF",
+            "mangledName": "$s11DatonomyKit0A3SdkC11getLTVScoreyyySdSg_AA0A8SDKErrorOSgtcF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(event:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEvent",
+                "printedName": "DatonomyKit.AdEvent",
+                "usr": "c:@M@DatonomyKit@objc(cs)AdEvent"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0A3SdkC5eventAD_yAA7AdEventC_ySdSg_AA0A8SDKErrorOSgtctF",
+            "mangledName": "$s11DatonomyKit0A3SdkC5eventAD_yAA7AdEventC_ySdSg_AA0A8SDKErrorOSgtctF",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatonomyKit0A3SdkC",
+        "mangledName": "$s11DatonomyKit0A3SdkC",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "DatonomyKitProtocol",
+            "printedName": "DatonomyKitProtocol",
+            "usr": "s:11DatonomyKit0aB8ProtocolP",
+            "mangledName": "$s11DatonomyKit0aB8ProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdEventType",
+        "printedName": "AdEventType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "impression",
+            "printedName": "impression",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdEventType.Type) -> DatonomyKit.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "DatonomyKit.AdEventType",
+                    "usr": "s:11DatonomyKit11AdEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "DatonomyKit.AdEventType",
+                        "usr": "s:11DatonomyKit11AdEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit11AdEventTypeO10impressionyA2CmF",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO10impressionyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionTime",
+            "printedName": "sessionTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdEventType.Type) -> DatonomyKit.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "DatonomyKit.AdEventType",
+                    "usr": "s:11DatonomyKit11AdEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "DatonomyKit.AdEventType",
+                        "usr": "s:11DatonomyKit11AdEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit11AdEventTypeO11sessionTimeyA2CmF",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO11sessionTimeyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Var",
+            "name": "inAppPurchase",
+            "printedName": "inAppPurchase",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.AdEventType.Type) -> DatonomyKit.AdEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "DatonomyKit.AdEventType",
+                    "usr": "s:11DatonomyKit11AdEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DatonomyKit.AdEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AdEventType",
+                        "printedName": "DatonomyKit.AdEventType",
+                        "usr": "s:11DatonomyKit11AdEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11DatonomyKit11AdEventTypeO13inAppPurchaseyA2CmF",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO13inAppPurchaseyA2CmF",
+            "moduleName": "DatonomyKit"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEventType",
+                "printedName": "DatonomyKit.AdEventType",
+                "usr": "s:11DatonomyKit11AdEventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEventType",
+                "printedName": "DatonomyKit.AdEventType",
+                "usr": "s:11DatonomyKit11AdEventTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit11AdEventTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "DatonomyKit",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatonomyKit11AdEventTypeO9hashValueSivp",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO9hashValueSivp",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatonomyKit11AdEventTypeO9hashValueSivg",
+                "mangledName": "$s11DatonomyKit11AdEventTypeO9hashValueSivg",
+                "moduleName": "DatonomyKit",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit11AdEventTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11DatonomyKit11AdEventTypeO",
+        "mangledName": "$s11DatonomyKit11AdEventTypeO",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AdEvent",
+        "printedName": "AdEvent",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(type:sessionTime:impression:transactionIAP:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdEvent",
+                "printedName": "DatonomyKit.AdEvent",
+                "usr": "c:@M@DatonomyKit@objc(cs)AdEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEventType",
+                "printedName": "DatonomyKit.AdEventType",
+                "usr": "s:11DatonomyKit11AdEventTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Double?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.AdImpression?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdImpression",
+                    "printedName": "DatonomyKit.AdImpression",
+                    "usr": "s:11DatonomyKit12AdImpressionC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DatonomyKit.TransactionIAP?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TransactionIAP",
+                    "printedName": "DatonomyKit.TransactionIAP",
+                    "usr": "s:11DatonomyKit14TransactionIAPC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit7AdEventC4type11sessionTime10impression14transactionIAPAcA0cD4TypeO_SdSgAA0C10ImpressionCSgAA011TransactionJ0CSgtcfc",
+            "mangledName": "$s11DatonomyKit7AdEventC4type11sessionTime10impression14transactionIAPAcA0cD4TypeO_SdSgAA0C10ImpressionCSgAA011TransactionJ0CSgtcfc",
+            "moduleName": "DatonomyKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdEvent",
+                "printedName": "DatonomyKit.AdEvent",
+                "usr": "c:@M@DatonomyKit@objc(cs)AdEvent"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DatonomyKit@objc(cs)AdEvent(im)init",
+            "mangledName": "$s11DatonomyKit7AdEventCACycfc",
+            "moduleName": "DatonomyKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DatonomyKit@objc(cs)AdEvent",
+        "mangledName": "$s11DatonomyKit7AdEventC",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatonomyKitProtocol",
+        "printedName": "DatonomyKitProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiKey:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DatonomyKit.SdkState?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(DatonomyKit.SdkState?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.SdkState?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "SdkState",
+                            "printedName": "DatonomyKit.SdkState",
+                            "usr": "s:11DatonomyKit8SdkStateO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0aB8ProtocolP10initialize6apiKey_ySS_yAA8SdkStateOSg_AA0A8SDKErrorOSgtctF",
+            "mangledName": "$s11DatonomyKit0aB8ProtocolP10initialize6apiKey_ySS_yAA8SdkStateOSg_AA0A8SDKErrorOSgtctF",
+            "moduleName": "DatonomyKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatonomyKit.DatonomyKitProtocol>",
+            "sugared_genericSig": "<Self where Self : DatonomyKit.DatonomyKitProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLTVScore",
+            "printedName": "getLTVScore(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0aB8ProtocolP11getLTVScoreyyySdSg_AA0A8SDKErrorOSgtcF",
+            "mangledName": "$s11DatonomyKit0aB8ProtocolP11getLTVScoreyyySdSg_AA0A8SDKErrorOSgtcF",
+            "moduleName": "DatonomyKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatonomyKit.DatonomyKitProtocol>",
+            "sugared_genericSig": "<Self where Self : DatonomyKit.DatonomyKitProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "event",
+            "printedName": "event(event:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AdEvent",
+                "printedName": "DatonomyKit.AdEvent",
+                "usr": "c:@M@DatonomyKit@objc(cs)AdEvent"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Double?, DatonomyKit.DatonomySDKError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Double?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "DatonomyKit.DatonomySDKError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "DatonomySDKError",
+                            "printedName": "DatonomyKit.DatonomySDKError",
+                            "usr": "s:11DatonomyKit0A8SDKErrorO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit0aB8ProtocolP5eventAD_yAA7AdEventC_ySdSg_AA0A8SDKErrorOSgtctF",
+            "mangledName": "$s11DatonomyKit0aB8ProtocolP5eventAD_yAA7AdEventC_ySdSg_AA0A8SDKErrorOSgtctF",
+            "moduleName": "DatonomyKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DatonomyKit.DatonomyKitProtocol>",
+            "sugared_genericSig": "<Self where Self : DatonomyKit.DatonomyKitProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11DatonomyKit0aB8ProtocolP",
+        "mangledName": "$s11DatonomyKit0aB8ProtocolP",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SQLite3",
+        "printedName": "SQLite3",
+        "declKind": "Import",
+        "moduleName": "DatonomyKit"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/services\/SessionTimeServiceImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 29,
+      "value": "\"DefaultEventDispatcherQueue\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/InternalDatonomySDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/InternalDatonomySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 34,
+      "value": "\"datonomySdk.initialization.fetch\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/InternalDatonomySDK.swift",
+      "kind": "StringLiteral",
+      "offset": 708,
+      "length": 23,
+      "value": "\"datonomySdk.api.fetch\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/di\/Container.swift",
+      "kind": "Dictionary",
+      "offset": 225,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/di\/Container.swift",
+      "kind": "Dictionary",
+      "offset": 272,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/entities\/SessionTimeEntity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 565,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/entities\/SessionTimeEntity.swift",
+      "kind": "IntegerLiteral",
+      "offset": 657,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/entities\/SessionTimeEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/entities\/SessionTimeEntity.swift",
+      "kind": "StringLiteral",
+      "offset": 126,
+      "length": 17,
+      "value": "\"DatonomyKit.SessionTimeEntity\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 141,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 162,
+      "length": 22,
+      "value": "\"datonomyKit.remoteId\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 23,
+      "value": "\"datonomyKit.versionDb\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 15,
+      "value": "\"sessionTimeId\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 68,
+      "value": "\"https:\/\/0d634nkn4a.execute-api.us-east-2.amazonaws.com\/development\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 370,
+      "length": 13,
+      "value": "\"0.0.13-beta\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 8,
+      "value": "\"synced\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 27,
+      "value": "\"datonomyKit.sessionTimeId\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 25,
+      "value": "\"datonomyKit.ltvScoreKey\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/DefaultLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 18,
+      "value": "\"com.datonomy.kit\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/DefaultLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 1328,
+      "length": 10,
+      "value": "\"DATONOMY\""
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 522,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 522,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 638,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 736,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Helpers\/Logging\/Models\/DatonomySDKLogLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 832,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Internal\/repositories\/ImpressionRepositoryImpl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEvent.swift",
+      "kind": "StringLiteral",
+      "offset": 127,
+      "length": 7,
+      "value": "\"DatonomyKit.AdEvent\""
+    }
+  ]
+}
