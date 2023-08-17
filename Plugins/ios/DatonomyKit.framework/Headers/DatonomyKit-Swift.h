@@ -275,13 +275,13 @@ typedef SWIFT_ENUM(NSInteger, DatonomySDKLogLevel, open) {
 
 
 
-SWIFT_EXTERN void DatonomyKit_getLTVScore(NSString * _Nonnull apiKey);
+SWIFT_EXTERN void datonomyKit_initialize(char const * _Nonnull apiKey, void (* _Nonnull onComplete)(NSInteger));
 
 
-SWIFT_EXTERN void DatonomyKit_initialize(NSString * _Nonnull apiKey);
+SWIFT_EXTERN void DatonomyKit_getLTVScore(void (* _Nonnull onComplete)(double));
 
 
-SWIFT_EXTERN void DatonomyKit_event(NSString * _Nonnull apiKey);
+SWIFT_EXTERN void DatonomyKit_event(char const * _Nonnull payload, void (* _Nonnull onComplete)(NSInteger));
 
 #endif
 #if defined(__cplusplus)

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DatonomyKit-Swift.h</key>
 		<data>
-		NAX7Zp/afToVupVzDE3E96KOL4k=
+		O9pt0KWiFnCfOJsnamb85z5fwX8=
 		</data>
 		<key>Headers/DatonomyKit.h</key>
 		<data>
@@ -18,23 +18,23 @@
 		</data>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Efc7n+mRyKGHb7fBbZw24NcQ0C4=
+		1UWSHgY3ZwMkSZsDTzUD147h4wA=
 		</data>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		RCP4ezrbp5hFbRsaJXIkKbAHG5Y=
+		USqwgRRYA4q9nMgqZCj19ACnOPs=
 		</data>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		45+TaVhs+U2vdFgSbJTePTORNhQ=
+		CJDF8uTOLV7ARk7PBnaSpNuqk7c=
 		</data>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RCP4ezrbp5hFbRsaJXIkKbAHG5Y=
+		USqwgRRYA4q9nMgqZCj19ACnOPs=
 		</data>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CprXpep8LIvMJyDkVHOccixoy6w=
+		yEEf8FVYzPamVulOYu5WT+8FzjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f/NCodfjI5U1e2J6zwqSACpl+bR0NsZ731RXcb2f+yQ=
+			Q6rNpHAODc2+ggqOCB5dJj1FJG9GvMmzqC7OP1cJq2s=
 			</data>
 		</dict>
 		<key>Headers/DatonomyKit.h</key>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JM7OLom07NQ8+Qj7EEVVR67fM/YG9zdHerOv6zwuT9E=
+			fDvlhkoZ/IKyZSA6bp4oI/WReHqm42s2JDQVZxJ+3kQ=
 			</data>
 		</dict>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mAIlvk8VsNnk0SxKbCPJqhfuOjLx2U/ilrJ5hJdig60=
+			Rc0DlSSW3wyIFhZMCHnSagmEaF1b0T+xkTDVyuX8sv0=
 			</data>
 		</dict>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AYhCzkT6IPg/5HAwwMlJjL6qKG4YL3NHfTtUH84egog=
+			mOtscz+qjN/P/jk11KeN+L/6VTHVmIHHR+GsZ77VFGY=
 			</data>
 		</dict>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mAIlvk8VsNnk0SxKbCPJqhfuOjLx2U/ilrJ5hJdig60=
+			Rc0DlSSW3wyIFhZMCHnSagmEaF1b0T+xkTDVyuX8sv0=
 			</data>
 		</dict>
 		<key>Modules/DatonomyKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CSXH0GPK1VBzSMwGC6I1G70u8ipPO/Ev29ZXXpg6KDg=
+			edKnDMnYlf+ZTwm9tcb+JwXnhrI1tuaXaRwc+en3qD0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

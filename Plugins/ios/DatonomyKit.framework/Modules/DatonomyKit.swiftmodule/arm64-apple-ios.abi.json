@@ -91,10 +91,7 @@
             "declKind": "EnumElement",
             "usr": "s:11DatonomyKit8SdkStateO11initializedyA2CmF",
             "mangledName": "$s11DatonomyKit8SdkStateO11initializedyA2CmF",
-            "moduleName": "DatonomyKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "DatonomyKit"
           },
           {
             "kind": "Var",
@@ -131,10 +128,7 @@
             "declKind": "EnumElement",
             "usr": "s:11DatonomyKit8SdkStateO7unknownyA2CmF",
             "mangledName": "$s11DatonomyKit8SdkStateO7unknownyA2CmF",
-            "moduleName": "DatonomyKit",
-            "declAttributes": [
-              "RawDocComment"
-            ]
+            "moduleName": "DatonomyKit"
           },
           {
             "kind": "Constructor",
@@ -336,6 +330,60 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdImpression",
+                "printedName": "DatonomyKit.AdImpression",
+                "usr": "s:11DatonomyKit12AdImpressionC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit12AdImpressionC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11DatonomyKit12AdImpressionC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit12AdImpressionC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11DatonomyKit12AdImpressionC6encode2toys7Encoder_p_tKF",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -344,6 +392,22 @@
         "moduleName": "DatonomyKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -416,6 +480,60 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TransactionIAP",
+                "printedName": "DatonomyKit.TransactionIAP",
+                "usr": "s:11DatonomyKit14TransactionIAPC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit14TransactionIAPC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11DatonomyKit14TransactionIAPC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit14TransactionIAPC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11DatonomyKit14TransactionIAPC6encode2toys7Encoder_p_tKF",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -424,6 +542,22 @@
         "moduleName": "DatonomyKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -1115,6 +1249,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -1157,8 +1305,8 @@
       },
       {
         "kind": "Function",
-        "name": "initializeSDKUnity",
-        "printedName": "initializeSDKUnity(apiKey:)",
+        "name": "datonomyKit_initialize",
+        "printedName": "datonomyKit_initialize(apiKey:_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -1167,14 +1315,40 @@
           },
           {
             "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Int) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ]
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)initializeSDKUnityWithApiKey:",
-        "mangledName": "$s11DatonomyKit18initializeSDKUnity6apiKeyySS_tF",
+        "usr": "c:(cm)datonomyKit_initializeWithApiKey::",
+        "mangledName": "$s11DatonomyKit08datonomyB11_initialize6apiKey_ySPys4Int8VG_ySiXCtF",
         "moduleName": "DatonomyKit",
         "declAttributes": [
           "AccessControl",
@@ -1185,7 +1359,7 @@
       {
         "kind": "Function",
         "name": "sendEventSDKUnity",
-        "printedName": "sendEventSDKUnity(apiKey:)",
+        "printedName": "sendEventSDKUnity(payload:onComplete:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -1194,14 +1368,40 @@
           },
           {
             "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
+            "name": "UnsafePointer",
+            "printedName": "Swift.UnsafePointer<Swift.Int8>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int8",
+                "printedName": "Swift.Int8",
+                "usr": "s:s4Int8V"
+              }
+            ],
+            "usr": "s:SP"
+          },
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Int) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ]
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)sendEventSDKUnityWithApiKey:",
-        "mangledName": "$s11DatonomyKit17sendEventSDKUnity6apiKeyySS_tF",
+        "usr": "c:(cm)sendEventSDKUnityWithPayload:onComplete:",
+        "mangledName": "$s11DatonomyKit17sendEventSDKUnity7payload10onCompleteySPys4Int8VG_ySiXCtF",
         "moduleName": "DatonomyKit",
         "declAttributes": [
           "AccessControl",
@@ -1212,7 +1412,7 @@
       {
         "kind": "Function",
         "name": "getLTVscoreSDKUnity",
-        "printedName": "getLTVscoreSDKUnity(apiKey:)",
+        "printedName": "getLTVscoreSDKUnity(_:)",
         "children": [
           {
             "kind": "TypeNominal",
@@ -1220,15 +1420,27 @@
             "printedName": "()"
           },
           {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(Swift.Double) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ]
           }
         ],
         "declKind": "Func",
-        "usr": "c:(cm)getLTVscoreSDKUnityWithApiKey:",
-        "mangledName": "$s11DatonomyKit19getLTVscoreSDKUnity6apiKeyySS_tF",
+        "usr": "c:(cm)getLTVscoreSDKUnity:",
+        "mangledName": "$s11DatonomyKit19getLTVscoreSDKUnityyyySdXCF",
         "moduleName": "DatonomyKit",
         "declAttributes": [
           "AccessControl",
@@ -2031,6 +2243,20 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -2633,41 +2859,42 @@
             "moduleName": "DatonomyKit"
           },
           {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "DatonomyKit.AdEventType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AdEventType",
+                    "printedName": "DatonomyKit.AdEventType",
+                    "usr": "s:11DatonomyKit11AdEventTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "AdEventType",
-                "printedName": "DatonomyKit.AdEventType",
-                "usr": "s:11DatonomyKit11AdEventTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "AdEventType",
-                "printedName": "DatonomyKit.AdEventType",
-                "usr": "s:11DatonomyKit11AdEventTypeO"
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
               }
             ],
-            "declKind": "Func",
-            "usr": "s:11DatonomyKit11AdEventTypeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s11DatonomyKit11AdEventTypeO2eeoiySbAC_ACtFZ",
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit11AdEventTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO8rawValueACSgSi_tcfc",
             "moduleName": "DatonomyKit",
-            "static": true,
             "implicit": true,
-            "funcSelfKind": "NonMutating"
+            "init_kind": "Designated"
           },
           {
             "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
+            "name": "rawValue",
+            "printedName": "rawValue",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2677,8 +2904,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:11DatonomyKit11AdEventTypeO9hashValueSivp",
-            "mangledName": "$s11DatonomyKit11AdEventTypeO9hashValueSivp",
+            "usr": "s:11DatonomyKit11AdEventTypeO8rawValueSivp",
+            "mangledName": "$s11DatonomyKit11AdEventTypeO8rawValueSivp",
             "moduleName": "DatonomyKit",
             "implicit": true,
             "accessors": [
@@ -2695,38 +2922,13 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:11DatonomyKit11AdEventTypeO9hashValueSivg",
-                "mangledName": "$s11DatonomyKit11AdEventTypeO9hashValueSivg",
+                "usr": "s:11DatonomyKit11AdEventTypeO8rawValueSivg",
+                "mangledName": "$s11DatonomyKit11AdEventTypeO8rawValueSivg",
                 "moduleName": "DatonomyKit",
                 "implicit": true,
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11DatonomyKit11AdEventTypeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s11DatonomyKit11AdEventTypeO4hash4intoys6HasherVz_tF",
-            "moduleName": "DatonomyKit",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -2736,6 +2938,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "Int",
         "conformances": [
           {
             "kind": "Conformance",
@@ -2750,6 +2953,42 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -2865,6 +3104,60 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AdEvent",
+                "printedName": "DatonomyKit.AdEvent",
+                "usr": "c:@M@DatonomyKit@objc(cs)AdEvent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DatonomyKit7AdEventC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s11DatonomyKit7AdEventC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatonomyKit7AdEventC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11DatonomyKit7AdEventC6encode2toys7Encoder_p_tKF",
+            "moduleName": "DatonomyKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -2880,6 +3173,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -3486,6 +3793,48 @@
       "offset": 178,
       "length": 2,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 13,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEventType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 200,
+      "length": 13,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/kelvengcarlisson\/Development\/datonomy\/datonomyKit\/DatonomySDK\/Sources\/DatonomySDK\/Models\/AdEvent.swift",

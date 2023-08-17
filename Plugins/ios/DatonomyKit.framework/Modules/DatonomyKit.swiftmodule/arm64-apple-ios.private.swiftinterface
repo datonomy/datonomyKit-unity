@@ -21,13 +21,17 @@ public enum SdkState : Swift.String {
     get
   }
 }
-public class AdImpression {
+public class AdImpression : Swift.Codable {
   public init(revenue: Swift.Double, networkName: Swift.String, typeAds: DatonomyKit.AdsType, currency: DatonomyKit.Currency)
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
-public class TransactionIAP {
+public class TransactionIAP : Swift.Codable {
   public init(originalID: Swift.String, amount: Swift.Double, currency: DatonomyKit.Currency)
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public enum DatonomySDKError : Swift.Error {
   case invalidApiKey(message: Swift.String)
@@ -36,7 +40,7 @@ public enum DatonomySDKError : Swift.Error {
   case processingError(message: Swift.String)
   case notAuthorized
 }
-public enum Currency : Swift.String {
+public enum Currency : Swift.String, Swift.Codable {
   case EUR
   case USD
   case BRL
@@ -47,12 +51,14 @@ public enum Currency : Swift.String {
     get
   }
 }
-@_cdecl("DatonomyKit_initialize")
-public func initializeSDKUnity(apiKey: Swift.String)
+public typealias CCallbackWithInt = @convention(c) (Swift.Int) -> Swift.Void
+public typealias CCallbackLtvScore = @convention(c) (Swift.Double) -> Swift.Void
+@_cdecl("datonomyKit_initialize")
+public func datonomyKit_initialize(apiKey: Swift.UnsafePointer<Swift.CChar>, _ onComplete: DatonomyKit.CCallbackWithInt)
 @_cdecl("DatonomyKit_event")
-public func sendEventSDKUnity(apiKey: Swift.String)
+public func sendEventSDKUnity(payload: Swift.UnsafePointer<Swift.CChar>, onComplete: DatonomyKit.CCallbackWithInt)
 @_cdecl("DatonomyKit_getLTVScore")
-public func getLTVscoreSDKUnity(apiKey: Swift.String)
+public func getLTVscoreSDKUnity(_ onComplete: DatonomyKit.CCallbackLtvScore)
 @objc public enum DatonomySDKLogLevel : Swift.Int {
   case off = 0
   case error = 1
@@ -72,7 +78,7 @@ public func getLTVscoreSDKUnity(apiKey: Swift.String)
 extension DatonomyKit.DatonomySDKLogLevel : Swift.Comparable {
   public static func < (lhs: DatonomyKit.DatonomySDKLogLevel, rhs: DatonomyKit.DatonomySDKLogLevel) -> Swift.Bool
 }
-public enum AdsType : Swift.String {
+public enum AdsType : Swift.String, Swift.Codable {
   case banner
   case video
   case interstitial
@@ -95,19 +101,21 @@ public class DatonomySdk : DatonomyKit.DatonomyKitProtocol {
   public func event(event: DatonomyKit.AdEvent, _ completionHandler: @escaping (Swift.Double?, DatonomyKit.DatonomySDKError?) -> Swift.Void)
   @objc deinit
 }
-public enum AdEventType {
+public enum AdEventType : Swift.Int, Swift.Codable {
   case impression
   case sessionTime
   case inAppPurchase
-  public static func == (a: DatonomyKit.AdEventType, b: DatonomyKit.AdEventType) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
     get
   }
 }
-@objc public class AdEvent : ObjectiveC.NSObject {
+@objc public class AdEvent : ObjectiveC.NSObject, Swift.Codable {
   public init(type: DatonomyKit.AdEventType, sessionTime: Swift.Double? = nil, impression: DatonomyKit.AdImpression? = nil, transactionIAP: DatonomyKit.TransactionIAP? = nil)
   @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+  required public init(from decoder: Swift.Decoder) throws
 }
 public protocol DatonomyKitProtocol {
   func initialize(apiKey: Swift.String, _ completionHandler: @escaping (DatonomyKit.SdkState?, DatonomyKit.DatonomySDKError?) -> Swift.Void)
@@ -127,3 +135,4 @@ extension DatonomyKit.AdsType : Swift.Hashable {}
 extension DatonomyKit.AdsType : Swift.RawRepresentable {}
 extension DatonomyKit.AdEventType : Swift.Equatable {}
 extension DatonomyKit.AdEventType : Swift.Hashable {}
+extension DatonomyKit.AdEventType : Swift.RawRepresentable {}
