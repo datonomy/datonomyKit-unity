@@ -17,7 +17,7 @@ public class IOSNativeBridgeManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("-------> Datonomy SDK Inicializando 〄");
+  
 
 #if UNITY_IOS
     Invoke("DelayedInitialization", 2.0f);  // Adia a inicialização por 2 segundos.
@@ -28,8 +28,8 @@ public class IOSNativeBridgeManager : MonoBehaviour
 
     private void DelayedInitialization()
     {
-        InitializeSDK("bvjI2tBTpU8Wd5Id1lP037e0ccTuZWqu91Y4Icdp");
-        Debug.Log("-------> Datonomy SDK Inicializado ✅");
+        InitializeSDK("xxxxxxxxx");
+   
         // RequestLTVScore();
     }
 
