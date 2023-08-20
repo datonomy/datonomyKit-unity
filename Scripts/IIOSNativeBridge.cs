@@ -5,7 +5,7 @@ using UnityEngine;
 public interface IIOSNativeBridge
 {
     void Initialize(string apiKey);
-    // void GetLTVScore();
-    // void Event(AdEvent adEvent);
+    void GetLTVScore();
+    void Event(AdEvent adEvent);
 
 }

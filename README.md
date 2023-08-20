@@ -1,37 +1,69 @@
 # DatonomySDK Documentation
 
-The `DatonomySDK` provides seamless and rapid integration with native iOS services for Unity. Below, you'll find a brief description of how to set up and use the main features of the SDK.
+The `DatonomySDK` provides seamless and rapid integration with native iOS Datonomy services for Unity. Below, you'll find a brief description of how to set up and use the main features of the SDK.
 
 ## Initial Setup
 
-1. Ensure that the `IOSNativeBridgeManager` is attached to a `GameObject` in your scene named `IOSBridgeManager`.
+1. Ensure that the `IOSNativeBridgeManager` (this is an exemple file) is attached to a `GameObject` in your scene named `IOSBridgeManager`.
 2. In the `Start` method of your script, the SDK will automatically initialize with the provided API key. If you need to use one provided by Datonomy, replace this string with the desired value.
-3. All the functions have their own callback
+3. All the functions have their own callback:
+
+## Getting Started
+
+After adding the `IOSNativeBridge` class to your project, it's essential to understand how to reference and use it.
+
+### 1. Namespace
+
+The class is wrapped inside the `Datonomy.DatonomySDK` namespace. This means that to access the class, you'll need to either use the full name or add a using directive.
+
+### Using a Directive
+
+At the top of your C# script, add:
+
+```csharp
+using Datonomy.DatonomySDK;
+```
+And then you can reference the class like so:
+
+```csharp
+IOSNativeBridge bridge = new IOSNativeBridge();
+```
+#### Using the Full Name
+
+```csharp
+Datonomy.DatonomySDK.IOSNativeBridge bridge = new Datonomy.DatonomySDK.IOSNativeBridge();
+```
 
 ### Sample Code for Initial Setup:
 ```csharp
-using System;
-using System.Runtime.InteropServices;
 using UnityEngine;
+using Datonomy.DatonomySDK;
 
-public class IOSNativeBridge : IIOSNativeBridge
+public class IOSNativeBridgeManager : MonoBehaviour
 {
-#if UNITY_IOS
-    [DllImport("__Internal")]
-    private static extern void datonomyKit_initialize(string apiKey, Action<int> completionHandler);
-#endif
-    public void Initialize(string apiKey)
+    private IIOSNativeBridge _bridge;
+
+    private void Awake()
     {
+
 #if UNITY_IOS
-        datonomyKit_initialize(apiKey,completionHandler);
-        Debug.LogWarning("Running on iOS!");
+        Datonomy.DatonomySDK.IOSNativeBridge _bridge = new Datonomy.DatonomySDK.IOSNativeBridge();
 #else
-        Debug.LogWarning("Not running on iOS!");
+        Debug.LogWarning("Not running on iOS, the bridge won't be instantiated.");
 #endif
     }
 
+    void Start()
+    {
 
-}
+
+#if UNITY_IOS
+    InitializeSDK("your api key");
+#else
+        Debug.LogWarning("Not running on iOS, SDK initialization skipped.");
+#endif
+    }
+    ...
 ```
 ## Available Methods
 ### InitializeSDK
